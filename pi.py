@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from LineAPI.linepy import *
-from LineAPI.akad.ttypes import Message
-from LineAPI.akad.ttypes import ContentType as Type
+from linepy import *
+from akad.ttypes import Message
+from akad.ttypes import ContentType as Type
 from datetime import datetime
 from time import sleep
 from bs4 import BeautifulSoup
